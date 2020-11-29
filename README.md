@@ -53,7 +53,7 @@ Data Storage and Retrieval : For faster retrieval of search results I have uploa
 
 Data Aggregation/Exploration : The dataset is analyzed and I have analyzed the correlation between attributes using Spark. Data exploration is performed using Spark RDD. Users can analyze and explore the data using an interactive UI implemented using Flask, Jinja2, HTML5 and CSS3. 
 
-Data Visualization : As data plays a vital role in every industry. The presentation of data decides the fate of any industry. AirBnb uses visualization tools for enhanced customer engagement to make profitable business and so I have visualized all the attributes and their relationship of the cleaned data using Spark RDD. The users can visualize the pre-analyzed visualization results in the UI.  
+Data Visualization : As data plays a vital role in every industry. The presentation of data decides the fate of any industry. AirBnb uses visualization tools for enhanced customer engagement to make profitable business and so I have visualized all the attributes and their relationship using Spark RDD. The users can visualize the pre-analyzed visualization results in the UI.  
 
 
 # Database 
