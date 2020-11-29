@@ -3,7 +3,7 @@ import pymongo
 from bson import json_util
 
 # Connect to mongoDB database
-myclient = pymongo.MongoClient("mongodb+srv://ashiranka:ashiranka@cluster.ivy0q.mongodb.net/new_york_airbnb?ssl=true&ssl_cert_reqs=CERT_NONE")
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 db = myclient["new_york_airbnb"]
 col = db["Detail"]
 
