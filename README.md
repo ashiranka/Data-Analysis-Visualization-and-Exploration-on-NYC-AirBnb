@@ -49,7 +49,7 @@ Data Cleaning/Data wrangling : The dataset has many missing values and unnecessa
 
 Data Transformation : I have altered the structure of the data which is put to a NoSQL database using a python script for faster query execution.
 
-Data Retrieval : For faster retrieval of search results I have uploaded the cleaned data to MongoDB (a NoSQL database) in the project. I have used indexes to make data retrieval faster by reducing the number of disk I/Os. 
+Data Storage and Retrieval : For faster retrieval of search results I have uploaded the cleaned data to MongoDB (a NoSQL database) in the project. I have used indexes to make data retrieval faster by reducing the number of disk I/Os. 
 
 Data Aggregation/Exploration : The dataset is analyzed and I have analyzed the correlation between attributes using Spark. Data exploration is performed using Spark RDD. Users can analyze and explore the data using an interactive UI implemented using Flask, Jinja2, HTML5 and CSS3. 
 
