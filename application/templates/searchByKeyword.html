@@ -1,0 +1,19 @@
+<!-- Search by Keyword HTML -->
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-image">
+    <img src="../static/css/images/background2.jpg" alt="Snow" style="width:100%">
+</div>
+<div class="bg-text">
+    <h1>SEARCH BY KEYWORD</h1>
+    <form method="POST" action="/searchByKeyword">
+        <div>
+            <label>Search</label>
+            <input type="text" id="search" name="search" class="textPrint">
+            <br><br>
+            <input class="button" type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+{% endblock %}

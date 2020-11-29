@@ -1,0 +1,22 @@
+<!-- Main Page HTML -->
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-image">
+    <img src="../static/css/images/background.jpg" alt="Snow" style="width:100%">
+</div>
+<div class="bg-text">
+    <h1>NEW YORK AIRBNB</h1>
+    <div class="row">
+        <form method="GET" action="/searchByCategory">
+            <button class="column1" type="submit">Search by Category</button>
+        </form>
+        <form method="GET" action="/searchByKeyword">
+            <button class="column1" type="submit">Search by Keyword</button>
+        </form>
+        <form method="GET" action="/visualization">
+            <button class="column1" type="submit">Visualization</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
